@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 29d8e00bb087f814094c2cc5eb504dd3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Apple: {fileID: 1652943832168574, guid: 8521a6562ec666a42956729b3cb2f668, type: 2}
+  - circleApple: {fileID: 1596764632721284, guid: 1858326ecc406ad488dc272faa50a3fe,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

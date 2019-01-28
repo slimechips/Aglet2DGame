@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1528174452293202}
+  m_IsPrefabAsset: 1
+--- !u!1 &1528174452293202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4265308031386362}
+  - component: {fileID: 114463163998409782}
+  - component: {fileID: 114966201451802902}
+  m_Layer: 0
+  m_Name: Spawning Origin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265308031386362
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1528174452293202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114463163998409782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1528174452293202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362c0783e47b8724d838910bfb9e4f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topenemyspawnzone: 9.2
+  bottomenemyspawnzone: -9.2
+  rightenemyspawnzone: 12
+  leftenemyspawnzone: -12
+  enemyprefab:
+  - {fileID: 1375063432752326, guid: 1f48e64d96973d140a4173a0d43b0619, type: 2}
+  - {fileID: 1188832701255970, guid: 0288bd614edaeae4dae882f15f22ab42, type: 2}
+  - {fileID: 1050750064909150, guid: 75e5cb304d3b3164aae3bf8332ed810d, type: 2}
+  - {fileID: 1622134830291160, guid: 2f1e28f7086cab54da057aedbacc9b6e, type: 2}
+  - {fileID: 1926898357306356, guid: 0943a3430b0486345b5b7baaf5658962, type: 2}
+  - {fileID: 1379134531154976, guid: 4350898359a780e409e073ce24dc9517, type: 2}
+  - {fileID: 1293241819518702, guid: 07172b65b73944a4c80066f13f45df75, type: 2}
+  - {fileID: 1963878402335364, guid: 03ce686d736264641b1d5f994809d214, type: 2}
+  - {fileID: 1229117188383614, guid: ed54b39f87759a941b447eb5cbae3f84, type: 2}
+  - {fileID: 1872245658130334, guid: 0452eca9a6a42ad48a281e2da34e9276, type: 2}
+  - {fileID: 1649498758392860, guid: ab275818d74fb7343811b018efbbd5f1, type: 2}
+  - {fileID: 1287045757041986, guid: 038980880db359e43baced44afd5e144, type: 2}
+  - {fileID: 1619963807187054, guid: 5c231a4d66d2b3f4bae8c91042e407ee, type: 2}
+  - {fileID: 1158445769696160, guid: c5572adc14830834e8bb41ca820d1ff4, type: 2}
+  enemynames:
+  - apple
+  - shoe
+  - bat
+  - golden apple
+  - green apple
+  - head
+  - shoe box
+  - stage one boss
+  - butterfly
+  - shell left
+  - shell right
+  - koala
+  - stage two boss
+  - golden green apple
+--- !u!114 &114966201451802902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1528174452293202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bebd3f678d8e29945a8d76a4b2696e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minefieldIntervalOne: 0.5

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - darkness
+  - enemy
+  - boss
+  - final boss
+  - special enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Enemies
+  - Player
+  - Enemy Projectiles
+  - Player Projectiles
+  - Foreground
+  - UI
+  - Powerups
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 838326769
+    locked: 0
+  - name: Environment
+    uniqueID: 4032059195
+    locked: 0
+  - name: PowerUps
+    uniqueID: 1687720899
+    locked: 0
+  - name: Enemies
+    uniqueID: 1315019679
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3789457567
+    locked: 0
+  - name: Enemy Projectiles
+    uniqueID: 915782791
+    locked: 0
+  - name: Player Projectiles
+    uniqueID: 2170163653
+    locked: 0
+  - name: Foreground
+    uniqueID: 4002715025
+    locked: 0
+  - name: UI
+    uniqueID: 3568284151
+    locked: 0
